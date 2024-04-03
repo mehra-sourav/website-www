@@ -1,7 +1,7 @@
 import ENV from 'website-www/config/environment';
 
 const SCHEME = 'https://';
-const DOMAIN = 'souravmehra.site';
+const DOMAIN = 'http://localhost:3000';
 
 const APP_URLS = {
   production: {
