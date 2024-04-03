@@ -1,7 +1,7 @@
 import ENV from 'website-www/config/environment';
 
 const SCHEME = 'https://';
-const DOMAIN = 'http://localhost:3000';
+const DOMAIN = 'souravmehra.site';
 
 const APP_URLS = {
   production: {
@@ -14,7 +14,7 @@ const APP_URLS = {
     TASKS: `${SCHEME}my.${DOMAIN}/tasks`,
     IDENTITY: `${SCHEME}my.${DOMAIN}/identity`,
     MY_STATUS: `${SCHEME}my.${DOMAIN}`,
-    API_BACKEND: `${SCHEME}api.${DOMAIN}`,
+    API_BACKEND: `http://localhost:3000`,
   },
   staging: {
     HOME: `${SCHEME}staging-www.${DOMAIN}`,
