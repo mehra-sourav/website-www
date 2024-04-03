@@ -1,7 +1,7 @@
 import ENV from 'website-www/config/environment';
 
 const SCHEME = 'https://';
-const DOMAIN = 'realdevsquad.com';
+const DOMAIN = 'souravmehra.site';
 
 const APP_URLS = {
   production: {
