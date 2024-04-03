@@ -13,6 +13,7 @@
   "scripts": {
     "build": "ember build --environment=production",
     "build:staging": "ember build --environment=staging",
+    "build:dev": "ember build --environment=development",
     "lint": "concurrently \"npm:lint:*(!fix)\" --names \"lint:\"",
     "lint:css": "stylelint \"**/*.css\"",
     "lint:css:fix": "concurrently \"npm:lint:css -- --fix\"",
